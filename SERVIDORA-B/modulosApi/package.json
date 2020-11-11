@@ -1,0 +1,13 @@
+{
+    "name": "modulo_ram",
+    "version": "1.0.0",
+    "description": "Contenedor con Node",
+    "author": "20170081",
+    "main": "api.js",
+    "scripts": {
+      "start": "node api.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    }
+  }

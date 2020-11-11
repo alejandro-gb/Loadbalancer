@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+    apiab:
+        image: alej076/api
+        ports: 
+            - 3000:3000
+    mongo:
+        image: mongo
+        ports: 
+            - 27017:27017
+        restart: always
